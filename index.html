@@ -15,6 +15,20 @@
   </head>
   <body>
     <div class="page">
+      <!-- NAVBAR -->
+      <nav class="nav">
+        <div class="nav-inner">
+          <div class="nav-logo">AM.</div>
+          <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+      </nav>
+
       <!-- HERO SECTION -->
       <header class="hero">
         <div class="hero-content">
@@ -32,17 +46,21 @@
 
           <div class="hero-buttons">
             <a href="#projects" class="btn primary">View my projects</a>
-            <a href="mailto:amohakaka@gmail.com" class="btn ghost"
-              >Contact me</a
-            >
+            <a href="#contact" class="btn ghost">Contact me</a>
           </div>
 
           <div class="hero-links">
-            <a href="https://github.com/Damadel" target="_blank">GitHub</a>
+            <a
+              href="https://github.com/Damadel"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub</a
+            >
             <span>•</span>
             <a
               href="https://www.linkedin.com/in/abdullahi-mohamed-331928289"
               target="_blank"
+              rel="noopener noreferrer"
               >LinkedIn</a
             >
           </div>
@@ -55,12 +73,15 @@
           <div class="card">
             <h2>About Me</h2>
             <p>
-              I am a junior front-end developer with a strong interest in
-              building responsive, user-friendly interfaces. I completed the
-              Software Development program at Moringa School where I learned
-              HTML, CSS, JavaScript, React, Python and Flask. I’m now focused on
-              improving my front-end skills and gaining real-world experience
-              through an internship.
+             <p>
+  I am a junior front-end developer with a strong passion for building responsive and
+  user-friendly web interfaces. I completed a Full-Stack Software Development program
+  at Moringa School, where I learned HTML, CSS, JavaScript, React, Python and Flask.
+  Although I have full-stack skills, I’m now focusing on Front-End Development and
+  actively searching for an internship opportunity — remote, hybrid, or onsite in Kenya —
+  to gain real-world experience and contribute to modern web projects.
+</p>
+
             </p>
           </div>
         </section>
@@ -87,34 +108,186 @@
           <h2 class="section-title">Projects</h2>
 
           <div class="projects-grid">
+            <!-- Portfolio Website -->
             <article class="project-card">
               <h3>Portfolio Website</h3>
               <p>
-                This website showcases my profile, skills and projects. Built
-                with HTML, modern CSS and a bit of JavaScript for structure and
-                interactivity.
+                My personal portfolio website showcasing my skills, experience
+                and projects. Built with structured HTML, modern CSS and
+                JavaScript interactions.
               </p>
               <p class="project-tech">Tech: HTML, CSS, JavaScript</p>
+              <div class="project-actions">
+                <a
+                  href="https://damadel.github.io/portfolio-website/"
+                  class="project-btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View live
+                </a>
+                <a
+                  href="https://github.com/Damadel/portfolio-website"
+                  class="project-btn ghost-btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View code
+                </a>
+              </div>
             </article>
 
+            <!-- To-Do List App -->
             <article class="project-card">
               <h3>To-Do List App</h3>
               <p>
-                A simple task management app where users can add, mark as
-                complete and delete daily tasks. Great practice in DOM
-                manipulation and JS logic.
+                A simple daily task manager where users can add, delete and mark
+                tasks as completed. Smooth UI with DOM manipulation.
               </p>
               <p class="project-tech">Tech: HTML, CSS, JavaScript</p>
+              <div class="project-actions">
+                <a
+                  href="https://damadel.github.io/todo-list-app/"
+                  class="project-btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View live
+                </a>
+                <a
+                  href="https://github.com/Damadel/todo-list-app"
+                  class="project-btn ghost-btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View code
+                </a>
+              </div>
             </article>
 
+            <!-- Netflix Clone -->
             <article class="project-card">
               <h3>Netflix Landing Page (Clone)</h3>
               <p>
-                A static clone of the Netflix landing page created to practice
-                layout, flexbox, and responsive design.
+                A modern Netflix-style landing page created to practice
+                responsive design, layouts, and interactive elements.
               </p>
-              <p class="project-tech">Tech: HTML, CSS</p>
+              <p class="project-tech">Tech: HTML, CSS, JavaScript</p>
+              <div class="project-actions">
+                <a
+                  href="https://damadel.github.io/netflix-landing/"
+                  class="project-btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View live
+                </a>
+                <a
+                  href="https://github.com/Damadel/netflix-landing"
+                  class="project-btn ghost-btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View code
+                </a>
+              </div>
             </article>
+
+            <!-- React Task Manager -->
+            <article class="project-card">
+              <h3>Task Manager App (React)</h3>
+              <p>
+                A React-based task application where users can add, update, and
+                delete tasks with state and localStorage support.
+              </p>
+              <p class="project-tech">Tech: React, JavaScript, CSS</p>
+              <div class="project-actions">
+                <a
+                  href="https://task-manager-abdullahi.netlify.app/"
+                  class="project-btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View live
+                </a>
+                <a
+                  href="https://github.com/Damadel/task-manager-react-project"
+                  class="project-btn ghost-btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View code
+                </a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!-- EDUCATION SECTION -->
+        <section id="education" class="section">
+          <div class="card">
+            <h2>Education</h2>
+            <div class="edu-item">
+              <h3>Moringa School – Certificate in Software Development</h3>
+              <p class="edu-meta">Feb 2025 – Nov 2025 · Nairobi, Kenya</p>
+              <p>
+                Full-stack software development program covering HTML, CSS,
+                JavaScript, React, Python and Flask, with a focus on practical
+                projects and industry best practices.
+              </p>
+            </div>
+
+            <div class="edu-item">
+              <h3>Visionary School Limited – Pearson Edexcel IGCSE</h3>
+              <p class="edu-meta">Completed June 2022</p>
+              <p>
+                Subjects: English Language (Grade 1), Chemistry (Grade 1),
+                Mathematics (Grade 4), Kiswahili (Grade 6).
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="section">
+          <div class="card contact-card">
+            <h2>Contact</h2>
+            <p>
+              I’m currently looking for front-end internship opportunities in
+              Kenya and remote roles. Feel free to reach out if you’d like to
+              work together.
+            </p>
+            <div class="contact-grid">
+              <div>
+                <p><strong>Email</strong></p>
+                <p>
+                  <a href="mailto:amohakaka@gmail.com">amohakaka@gmail.com</a>
+                </p>
+              </div>
+              <div>
+                <p><strong>GitHub</strong></p>
+                <p>
+                  <a
+                    href="https://github.com/Damadel"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    github.com/Damadel
+                  </a>
+                </p>
+              </div>
+              <div>
+                <p><strong>LinkedIn</strong></p>
+                <p>
+                  <a
+                    href="https://www.linkedin.com/in/abdullahi-mohamed-muhumed-muhumed"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >linkedin.com/in/abdullahi-mohamed-muhumed</a
+                  >
+                </p>
+              </div>
+            </div>
           </div>
         </section>
       </main>
@@ -123,8 +296,8 @@
       <footer class="footer">
         <p>© 2025 Abdullahi Mohamed Muhumed Aden</p>
         <p>
-          Open to front-end internships in Kenya and remote opportunities
-          worldwide.
+          Open to front-end internships worldwide — remote, hybrid, or onsite in
+          Kenya.
         </p>
       </footer>
     </div>
